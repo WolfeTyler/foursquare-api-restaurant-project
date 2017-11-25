@@ -11,9 +11,9 @@ import codecs
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 sys.stderr = codecs.getwriter('utf8')(sys.stderr)
 
-foursquare_client_id = "1Y1KAGWNJNG0S12YVN3N41MY4OMO5HFL53FVODL0OVPMUWU0"
-foursquare_client_secret = "OMFFIFDWF0NUL4CFKXXN3FEV2135TO2JRP2IHEZJILH2QKU4"
-google_api_key = "AIzaSyBNhD3eLr4Lg2GA5H88ESn0xg1e6oaoA6Q"
+foursquare_client_id = "YOUR_ID_HERE"
+foursquare_client_secret = "YOUR_SECRET_HERE"
+google_api_key = "YOUR_KEY_HERE"
 
 engine = create_engine('sqlite:///restaruants.db')
 

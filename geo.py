@@ -11,3 +11,4 @@ def getGeocodeLocation(inputString):
     latitude = result['results'][0]['geometry']['location']['lat']
     longitude = result['results'][0]['geometry']['location']['lng']
     return (latitude, longitude)
+
